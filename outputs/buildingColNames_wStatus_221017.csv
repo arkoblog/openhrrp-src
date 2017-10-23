@@ -1,0 +1,106 @@
+Column Name,Present in building data dictionary,Name,Type,Range,Is multiselect?,Comments
+house_cd,Yes,House Condition ,Categorical,1-8,,
+floor_pre,No,? (Not provided),? (Not provided),? (Not provided),,
+floor_pos,No,? (Not provided),? (Not provided),? (Not provided),,
+age,No,? (Not provided),? (Not provided),? (Not provided),,
+pl_area,No,? (Not provided),? (Not provided),? (Not provided),,
+hgt_pre,No,? (Not provided),? (Not provided),? (Not provided),,
+hgt_pos,No,? (Not provided),? (Not provided),? (Not provided),,
+surf_con,Yes,Surface condition of house/land,Categorical,1-3,,
+foundatn,Yes,Foundation Type of house,Categorical,1-5,,
+roof,Yes,Roof Type,Categorical,1-3,,
+gd_floor,Yes,Ground Floor Type,Categorical,1-5,,
+up_floor,Yes,Floor Type(except ground floor and roof),,1-4,,
+sup_str1,Yes,Super Structure of the house,Categorical,1-11,Yes,
+sup_str2,Yes,Super Structure of the house,Categorical,1-11,Yes,
+sup_str3,Yes,Super Structure of the house,Categorical,1-11,Yes,
+sup_str4,Yes,Super Structure of the house,Categorical,1-11,Yes,
+sup_str5,Yes,Super Structure of the house,Categorical,1-11,Yes,
+sup_str6,Yes,Super Structure of the house,Categorical,1-11,Yes,
+sup_str7,Yes,Super Structure of the house,Categorical,1-11,Yes,
+sup_str8,Yes,Super Structure of the house,Categorical,1-11,Yes,
+sup_str9,Yes,Super Structure of the house,Categorical,1-11,Yes,
+sup_str10,Yes,Super Structure of the house,Categorical,1-11,Yes,
+sup_str11,Yes,Super Structure of the house,Categorical,1-11,Yes,
+positn,Yes,Position of the House,Categorical,1-4,,
+pln_conf,Yes,Plan Configuration of the house,,1-10,,
+collapse,Yes,Collapse of Partial Collapse,Categorical,1-4,,Data has NA’s need to explore why that is the case
+leaning,Yes`,Buliding or storey Leaning,Categorical,1-4,,Data has NA’s need to explore why that is the case
+adjbld_rsk,Yes,Adjacent Building Hazard,Categorical,1-4,,Data has NA’s need to explore why that is the case
+dm_fndtn1,Yes,Foundation,Categorical,"1-3, 8, 9",,"Data has NA’s, even though 9=NA, why is that?"
+dm_fndtn2,Yes,Foundation,Categorical,1-3,,Data has NA(s) 
+dm_fndtn3,Yes,Foundation,Categorical,1-3,,Data has NA(s) 
+dm_roof1,Yes,Roof/Floor Collapse/PartialCollapse,Categorical,"1-3, 8, 9",,"Data has NA’s, even though 9=NA, why is that?"
+dm_roof2,Yes,Roof/Floor Collapse/PartialCollapse,Categorical,1-3,,Data has NA(s) 
+dm_roof3,Yes,Roof/Floor Collapse/PartialCollapse,Categorical,1-3,,Data has NA(s) 
+corn_sep1,Yes,Corner Separation,Categorical,"1-3, 8, 9",,"Data has NA’s, even though 9=NA, why is that?"
+corn_sep2,Yes,Corner Separation,Categorical,1-3,,Data has NA(s) 
+corn_sep3,Yes,Corner Separation,Categorical,1-3,,Data has NA(s) 
+diag_cr1,Yes,Diagonal Cracking,Categorical,"1-3, 8, 9",,"Data has NA’s, even though 9=NA, why is that?"
+diag_cr2,Yes,Diagonal Cracking,Categorical,1-3,,Data has NA(s) 
+diag_cr3,Yes,Diagonal Cracking,Categorical,1-3,,Data has NA(s) 
+pl_fail1,Yes,In Plane failure of walls,Categorical,"1-3, 8, 9",,"Data has NA’s, even though 9=NA, why is that?"
+pl_fail2,Yes,In Plane failure of walls,Categorical,1-3,,Data has NA(s) 
+pl_fail3,Yes,In Plane failure of walls,Categorical,1-3,,Data has NA(s) 
+op_fail1,Yes,Out of plane failure of walls carrying floor/roof,Categorical,"1-3, 8, 9",,"Data has NA’s, even though 9=NA, why is that?"
+op_fail2,Yes,Out of plane failure of walls carrying floor/roof,Categorical,1-3,,Data has NA(s) 
+op_fail3,Yes,Out of plane failure of walls carrying floor/roof,Categorical,1-3,,Data has NA(s) 
+op_fl_nl1,Yes,Out of plane failure of walls not carrying floor/roof,Categorical,"1-3, 8, 9",,"Data has NA’s, even though 9=NA, why is that?"
+op_fl_nl2,Yes,Out of plane failure of walls not carrying floor/roof,Categorical,1-3,,Data has NA(s) 
+op_fl_nl3,Yes,Out of plane failure of walls not carrying floor/roof,Categorical,1-3,,Data has NA(s) 
+dm_gabl1,Yes,Gable Wall Collapse,Categorical,"1-3, 8, 9",,"Data has NA’s, even though 9=NA, why is that?"
+dm_gabl2,Yes,Gable Wall Collapse,Categorical,1-3,,Data has NA(s) 
+dm_gabl3,Yes,Gable Wall Collapse,Categorical,1-3,,Data has NA(s) 
+delam1,Yes,? (Not provided),Categorical,"1-3, 8, 9",,"Data has NA’s, even though 9=NA, why is that?"
+delam2,Yes,? (Not provided),Categorical,1-3,,Data has NA(s) 
+delam3,Yes,? (Not provided),Categorical,1-3,,Data has NA(s) 
+col_fail1,Yes,Column Failure,Categorical,"1-3, 8, 9",,Data only has 1/Nas
+col_fail2,Yes,Column Failure,Categorical,1-3,,Data only has NA(s)
+col_fail3,Yes,Column Failure,Categorical,1-3,,Data has NA(s) 
+beam_fl1,Yes,Beam Failure,Categorical,"1-3, 8, 9",,Data only has 1/Nas
+beam_fl2,Yes,Beam Failure,Categorical,1-3,,Data only has NA(s)
+beam_fl3,Yes,Beam Failure,Categorical,1-3,,Data has NA(s) 
+part_col1,Yes,Infill/Partition Wall Damage,Categorical,"1-3, 8, 9",,Data only has 2/Nas
+part_col2,Yes,Infill/Partition Wall Damage,Categorical,1-3,,Data only has NA(s)
+part_col3,Yes,Infill/Partition Wall Damage,Categorical,1-3,,Data has NA(s) 
+str_case1,Yes,Staircase,Categorical,"1-3, 8, 9",,"Data has NA’s, even though 9=NA, why is that?"
+str_case2,Yes,Staircase,Categorical,1-3,,Data has NA(s) 
+str_case3,Yes,Staircase,Categorical,1-3,,Data has NA(s) 
+parapet1,Yes,Parapet,Categorical,"1-3, 8, 9",,"Data has NA’s, even though 9=NA, why is that?"
+parapet2,Yes,Parapet,Categorical,1-3,,Data has NA(s) 
+parapet3,Yes,Parapet,Categorical,1-3,,Data has NA(s) 
+clad_glz1,Yes,Cladding/Glazing,Categorical,"1-3, 8, 9",,"Data has NA’s, even though 9=NA, why is that?"
+clad_glz2,Yes,Cladding/Glazing,Categorical,1-3,,Data has NA(s) 
+clad_glz3,Yes,Cladding/Glazing,Categorical,1-3,,Data has NA(s) 
+gersk,Yes,Geotechnical Risk,Categorical,"1,2",,
+gersk_ls1,Yes,Type of geotechnical Risk,Categorical,1-7,Yes,
+gersk_ls2,Yes,Type of geotechnical Risk,Categorical,1-7,Yes,
+gersk_ls3,Yes,Type of geotechnical Risk,Categorical,1-7,Yes,
+gersk_ls4,Yes,Type of geotechnical Risk,Categorical,1-7,Yes,
+gersk_ls5,Yes,Type of geotechnical Risk,Categorical,1-7,Yes,
+gersk_ls6,Yes,Type of geotechnical Risk,Categorical,1-7,Yes,
+gersk_ls7,Yes,Type of geotechnical Risk,Categorical,1-7,Yes,
+assd_ar,Yes,Area Assessed,Categorical,1-5,,
+dm_grade,Yes,Damage Grade,Categorical,1-5,,
+tech_sol,Yes,Technical Solution,Categorical,1-4,,
+repair,Yes,Have you started reconstruction?,Categorical,1-2,,
+sec_use,Yes,Secondary use of the house?,Categorical,1-2,,
+secuse_ls1,Yes,Type of secondary use,Categorical,1-10,Yes,Data has NA(s) 
+secuse_ls2,Yes,Type of secondary use,Categorical,1-10,Yes,Data has NA(s) 
+secuse_ls3,Yes,Type of secondary use,Categorical,1-10,Yes,Data has NA(s) 
+secuse_ls4,Yes,Type of secondary use,Categorical,1-10,Yes,Data has NA(s) 
+secuse_ls5,Yes,Type of secondary use,Categorical,1-10,Yes,Data has NA(s) 
+secuse_ls6,Yes,Type of secondary use,Categorical,1-10,Yes,Data has NA(s) 
+secuse_ls7,Yes,Type of secondary use,Categorical,1-10,Yes,Data has NA(s) 
+secuse_ls8,Yes,Type of secondary use,Categorical,1-10,Yes,Data has NA(s) 
+secuse_ls9,Yes,Type of secondary use,Categorical,1-10,Yes,Data has NA(s) 
+secuse_ls10,Yes,Type of secondary use,Categorical,1-10,Yes,Data has NA(s) 
+fam_cn,No,? (Not provided),? (Not provided),? (Not provided),,
+dist,No,District,,,,
+vcode,No,,,,,
+vdcmun,No,,,,,
+ward,No,,,,,
+EA,No,,,,,
+howner_sn,No,,,,,
+house_sn,No,,,,,
+legl_own,No,,,,,
